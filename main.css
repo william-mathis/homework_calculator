@@ -5,3 +5,7 @@
 #transparent.active {
     display: block;
 }
+
+span {
+    font-weight: bold;
+}

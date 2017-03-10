@@ -18,6 +18,10 @@ $(document).ready(function () {
 
 		$(".a").text(a);
 		$(".b").text(b);
+		$("#z_add").text(add);
+		$("#z_sub").text(sub);
+		$("#z_mult").text(mult);
+		$("#z_div").text(divide);
 	})
 
 
