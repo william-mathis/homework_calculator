@@ -13,7 +13,13 @@ $(document).ready(function () {
 		$("#difference").val(sub);
 		$("#product").val(mult);
 		$("#quotient").val(divide);
+
+		$("#transparent").addClass("active");
+
+		$(".a").text(a);
+		$(".b").text(b);
 	})
+
 
 	$("#reset").on("click", function (e) {
 		e.preventDefault();

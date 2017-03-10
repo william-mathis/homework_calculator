@@ -8,8 +8,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- first step to a responsive site -->
         <title>HTML Skeleton</title>
-
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
 
         <!--Create a Web page on which information is dynamically added from an external JavaScript file. Here's what you need to accomplish:
 
@@ -44,16 +44,18 @@ Remember it has to be dynamic so if you change the value of the variables, the w
 
             <input type="button" id="button" value="compute">
             <input type="button" id="reset" value="reload">
-
-            <p>When I add a to b, I get:</p>
-            <input type="number" id="sum" placeholder="sum">
-            <p>When I subtract b from a, I get:</p>
-            <input type="number" id="difference" placeholder="difference">
-            <p>When I multiply a and b, I get:</p>
-            <input type="number" id="product" placeholder="product">
-            <p>When I divide a by b, I get:</p>
-            <input type="number" id="quotient" placeholder="quotient">
         </form>
+        <div id="transparent">
+            <p>When I add <span class="a"> a </span> to <span class="b">b</span>, I get:</p>
+            <input type="number" id="sum" placeholder="sum">
+            <p>When I subtract <span class="b">b</span> from <span class="a">a</span>, I get:</p>
+            <input type="number" id="difference" placeholder="difference">
+            <p>When I multiply <span class="a">a</span> and <span class="b">b</span>, I get:</p>
+            <input type="number" id="product" placeholder="product">
+            <p>When I divide <span class="a">a</span> by <span class="b">b</span>, I get:</p>
+            <input type="number" id="quotient" placeholder="quotient">
+        </div>
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
         <!-- Your javascript should be called here -->

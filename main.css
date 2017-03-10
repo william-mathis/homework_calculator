@@ -1,0 +1,7 @@
+#transparent {
+    display: none;
+}
+
+#transparent.active {
+    display: block;
+}
